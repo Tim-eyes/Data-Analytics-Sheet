@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+
+</head>
+<body>
+    <div id="ae2f6e624480410eb6db051367f69d49" class="chart-container" style="width:1200px; height:1200px;"></div>
+    <script>
+        var chart_ae2f6e624480410eb6db051367f69d49 = echarts.init(
+            document.getElementById('ae2f6e624480410eb6db051367f69d49'), 'white', {renderer: 'canvas'});
+        var option_ae2f6e624480410eb6db051367f69d49 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "map",
+            "name": "Movies",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "mapType": "world",
+            "data": [
+                {
+                    "name": "United States",
+                    "value": 2977
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 131
+                },
+                {
+                    "name": "France",
+                    "value": 49
+                },
+                {
+                    "name": "Canada",
+                    "value": 46
+                },
+                {
+                    "name": "India",
+                    "value": 24
+                },
+                {
+                    "name": "Australia",
+                    "value": 21
+                },
+                {
+                    "name": "Japan",
+                    "value": 15
+                },
+                {
+                    "name": "Germany",
+                    "value": 15
+                },
+                {
+                    "name": "South Korea",
+                    "value": 10
+                },
+                {
+                    "name": "Spain",
+                    "value": 9
+                },
+                {
+                    "name": "Russia",
+                    "value": 8
+                },
+                {
+                    "name": "China",
+                    "value": 8
+                },
+                {
+                    "name": "Mexico",
+                    "value": 8
+                },
+                {
+                    "name": "Italy",
+                    "value": 8
+                },
+                {
+                    "name": "South Africa",
+                    "value": 7
+                },
+                {
+                    "name": "Hong Kong",
+                    "value": 6
+                },
+                {
+                    "name": "New Zealand",
+                    "value": 6
+                },
+                {
+                    "name": "Brazil",
+                    "value": 5
+                },
+                {
+                    "name": "Ireland",
+                    "value": 4
+                },
+                {
+                    "name": "Sweden",
+                    "value": 3
+                },
+                {
+                    "name": "Norway",
+                    "value": 3
+                },
+                {
+                    "name": "Thailand",
+                    "value": 2
+                },
+                {
+                    "name": "Iran",
+                    "value": 2
+                },
+                {
+                    "name": "Denmark",
+                    "value": 2
+                },
+                {
+                    "name": "Argentina",
+                    "value": 2
+                },
+                {
+                    "name": "Pakistan",
+                    "value": 1
+                },
+                {
+                    "name": "Romania",
+                    "value": 1
+                },
+                {
+                    "name": "Greece",
+                    "value": 1
+                },
+                {
+                    "name": "Dominican Republic",
+                    "value": 1
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 1
+                },
+                {
+                    "name": "Fiji",
+                    "value": 1
+                },
+                {
+                    "name": "Kyrgyz Republic",
+                    "value": 1
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 1
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 1
+                },
+                {
+                    "name": "Turkey",
+                    "value": 1
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 1
+                },
+                {
+                    "name": "Kenya",
+                    "value": 1
+                }
+            ],
+            "roam": true,
+            "aspectScale": 0.75,
+            "nameProperty": "name",
+            "selectedMode": false,
+            "zoom": 1,
+            "mapValueCalculation": "sum",
+            "showLegendSymbol": true,
+            "emphasis": {},
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Movies"
+            ],
+            "selected": {
+                "Movies": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": " d",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "piecewise",
+        "min": 0,
+        "max": 99999,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 14,
+        "borderWidth": 0,
+        "pieces": [
+            {
+                "max": 5,
+                "min": 0,
+                "label": "0-5"
+            },
+            {
+                "max": 10,
+                "min": 6,
+                "label": "6-10"
+            },
+            {
+                "max": 10,
+                "min": 30,
+                "label": "10-30"
+            },
+            {
+                "max": 100,
+                "min": 31,
+                "label": "31-100"
+            },
+            {
+                "max": 1000,
+                "min": 101,
+                "label": "101-1000"
+            },
+            {
+                "max": 9999,
+                "min": 1001,
+                "label": "> 1000"
+            }
+        ]
+    }
+};
+        chart_ae2f6e624480410eb6db051367f69d49.setOption(option_ae2f6e624480410eb6db051367f69d49);
+    </script>
+</body>
+</html>
